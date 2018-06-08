@@ -42,7 +42,7 @@ var f = function () {
     <div>屏幕可用工作区高度： ${window.screen.availHeight}</div>
     <div>屏幕可用工作区宽度： ${window.screen.availWidth}</div>
     `
-    text1.insertAdjacentHTML('beforeend', t)
+    text1.insertAdjacentHTML('beforeend', h)
 
     var text2 = e('.text2')
     var time = new Date().toString().slice(16, 24)
